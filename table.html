@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        div {
+            background-color: white;
+            outline: 6px solid rgb(247, 243, 243);
+            margin: 400px 470px;
+            width: 650px;
+            height: 380px;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            width: 650px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tab">
+
+        <table>
+            <caption style="font-size:20px;">Health Chart</caption>
+            <thead>
+
+                <tr>
+                    <th rowspan="2">State of health</th>
+
+                    <th colspan="2">Fasting value </th>
+                    <th>After eating</th>
+                </tr>
+                <tr>
+                    <th>Minimum </th>
+                    <th>Maximum </th>
+                    <th>2 hours after eating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>healthy</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>less than 140</td>
+                </tr>
+                <tr>
+                    <td>Pre-diabities</td>
+                    <td>101</td>
+                    <td>126</td>
+                    <td>140 to 200</td>
+                </tr>
+                <tr>
+                    <td>diabities</td>
+                    <td>More than 126</td>
+                    <td>N/A</td>
+                    <td>More than 200</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
